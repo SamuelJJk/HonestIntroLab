@@ -1,13 +1,22 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .adContainer{
     border: solid #B9D0BA;
     background-color: #B9D0BA ;
     display: flex;
-    padding: 15px;
-    justify-content:space-evenly;
+    padding-top: 5px;
+    justify-content:center;
+    margin-top: 0px;
+    width: 100%;;
+    height: 16px;
+    padding-bottom: 5px;
 }
 .leftArrow{
     /* border: solid red; */
-    height: 30px;
+    height: 20px;
     /* searched how-to on stackover flow  */
     background: none;
 	color: inherit;
@@ -17,18 +26,24 @@
 	cursor: pointer;
 	outline: inherit;
     transform: scaleX(-1);
+    margin-right: 360px;
 }
 .adText{
     /* border: solid blue; */
-    height: 30px;
+    height: 20px;
+    border-right: solid rgba(0,0,0,50%) 0.5px;
+    text-transform: bold;
+    padding-right: 10px;
 }
 .adLink{
     /* border:solid green; */
     height: 30px;
+    text-decoration: underline;
+    padding-left: 5px;
 }
 .rightArrow{
     /* border: solid red; */
-    height: 30px;
+    height: 20px;
     background: none;
 	color: inherit;
 	border: none;
@@ -36,6 +51,7 @@
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    margin-left: 360px;
 }
 .navBar{
     display: flex;
