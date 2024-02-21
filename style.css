@@ -30,3 +30,9 @@
     width:100%;
 
 }
+.navbarHeader{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:150px;
+    padding-right: 150px;
+}
