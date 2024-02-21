@@ -8,6 +8,15 @@
 .leftArrow{
     /* border: solid red; */
     height: 30px;
+    /* searched how-to on stackover flow  */
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    transform: scaleX(-1);
 }
 .adText{
     /* border: solid blue; */
@@ -20,6 +29,13 @@
 .rightArrow{
     /* border: solid red; */
     height: 30px;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 .navBar{
     display: flex;
